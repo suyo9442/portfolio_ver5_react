@@ -1,0 +1,42 @@
+/* 다이아몬드 라인 */
+#diamond {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 48px;
+}
+#diamond img {
+    width: 50px;
+    height: 50px;
+}
+#diamond .line {
+    display: inline-block;
+    height: 3px;
+    width: 46%;
+    background: #eaeaea;
+}
+.rotate-center {
+	-webkit-animation: rotate-center 6s linear infinite both;
+	        animation: rotate-center 6s linear infinite both;
+}
+@-webkit-keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  @keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+}

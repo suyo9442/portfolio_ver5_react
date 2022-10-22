@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+html {
+  font-size: 62.5%;
+  overflow: hidden;
+}
+html, body, #wrap {
+  width: 100%;
+  height: 100%;
+}
+body {
+  background: linear-gradient(90deg, #8dafca 0%, #9ac3b5 100%);
+  /* font-family: 'Kanit', sans-serif; */
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 500;
+  font-size: var(--font-medium);
+  color: #222021;
+}
+button {
+  border: none;
+}

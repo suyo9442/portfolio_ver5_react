@@ -1,0 +1,118 @@
+/* favorability */
+.sec {
+    background: #D1D5DE;
+    padding: 0;
+    overflow: hidden;
+}
+.sec {
+    margin-bottom: 32px;
+}
+.sec .tit {
+    background: #8F9FB6;
+    font-size: 1.8rem;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px 0;
+    text-transform: uppercase;
+    color: #eaeaea;
+}
+#hobbies .content_wrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 56px;
+}
+#hobbies .content_wrap li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+#hobbies .content_wrap li > span {
+    background: #eaeaea;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
+#hobbies .content_wrap li img {
+    display: inline-block;
+    width: 60px;
+}
+#hobbies .content_wrap li strong {
+    display: inline-block;
+    color: #406BAB;
+}
+#favor .content_wrap {
+    padding: 24px;
+}
+#favor .content_wrap .favor {
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+#favor .content_wrap .favor .thumbs {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#favor .content_wrap .favor .thumbs p {
+    /* thumbs-up 사이즈 */
+    font-size: 4rem;
+}
+#favor .content_wrap .favor .thumbs1 {
+    background: url('/public/pattern.jpg') no-repeat center;
+    background-size: cover;
+}
+#favor .content_wrap .favor .thumbs2 {
+    background: url('/public/pattern2.jpg') no-repeat center;
+    background-size: cover;
+
+}
+#favor .content_wrap .favor .list {
+    width: 85%;
+    padding: 16px 48px 16px 48px;
+}
+#favor .content_wrap .like {
+    background: #84BA8E;
+    margin-bottom: 16px;
+}
+#favor .content_wrap .favor > div {
+    display: inline-block;
+}
+#favor .content_wrap .favor > div ul {
+    display: flex;
+    justify-content: space-between;
+}
+#favor .content_wrap .favor > div ul li {
+    background: #eaeaea;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#favor .content_wrap .favor > div ul li img {
+    width: 60px;
+}
+#favor .content_wrap .favor > div ul li.plus1 {
+    background: #6BB17B;
+    -webkit-box-shadow: inset 0px 0px 14px 2px rgba(0, 0, 0, 0.368); 
+    box-shadow: inset 0px 0px 14px 2px  rgba(0, 0, 0, 0.368);
+    
+}
+#favor .content_wrap .favor > div ul li.plus2 {
+    background: #CA828F;
+    -webkit-box-shadow: inset 0px 0px 14px 2px rgba(0, 0, 0, 0.368); 
+    box-shadow: inset 0px 0px 14px 2px  rgba(0, 0, 0, 0.368);
+}
+#favor .content_wrap .dislike {
+    background: #DB919E;
+}

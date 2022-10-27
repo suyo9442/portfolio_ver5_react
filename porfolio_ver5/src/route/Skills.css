@@ -1,0 +1,96 @@
+/* skills */
+#skills {
+    color: #406BAB;
+}
+#subject2 {
+    margin-bottom: 24px;
+}
+#subject2 .wrap {
+    height: 50px;
+    background: #eaeaea;
+    border-radius: 30px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#subject2 .wrap .list {
+    text-align: center;
+}
+#subject2 .wrap .list1 {
+    width: 80%;
+}
+#subject2 .wrap .list2 {
+    width: 20%;
+    position: relative;
+}
+#subject2 .wrap .list2:after {
+    content: '';
+    width: 2px;
+    height: 70%;
+    background: #bbbbbb;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+#subject2 .wrap .list span {
+    display: inline-block;
+}
+#subject2 .wrap .list img {
+    width: 14px;
+}
+#skillCont {
+    overflow-y: scroll;
+    height: 560px;
+    padding: 12px 8px;
+}
+#skillCont::-webkit-scrollbar {
+    width: 45px;  /* 스크롤바의 너비 */
+}
+
+#skillCont::-webkit-scrollbar-thumb {
+    height: 30%; /* 스크롤바의 길이 */
+    background: #D5D8DF; /* 스크롤바의 색상 */
+    border-radius: 30px;
+}
+
+#skillCont::-webkit-scrollbar-track {
+    background: #82A1BE;  /*스크롤바 뒷 배경 색상*/
+    border-radius: 30px;
+}
+#skillCont ul li {
+    width: 98%;
+    height: 90px;
+    background: #eaeaea;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    overflow: hidden;
+    margin-bottom: 16px;
+}
+#skillCont ul li > div {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#skillCont ul li div.img {
+    background: #DED1C9;
+    width: 10%;
+}
+#skillCont ul li div.img img {
+    width: 50px;
+}
+#skillCont ul li div.desc {
+    width: 75%;
+    padding: 0 24px;
+    justify-content: flex-start;
+}
+#skillCont ul li div.percent {
+    width: 15%;
+    background: #D5D8DF;
+}

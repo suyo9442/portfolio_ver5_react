@@ -5,6 +5,8 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 48px;
+    position: absolute; 
+    top: 50px;
 }
 #diamond img {
     width: 50px;

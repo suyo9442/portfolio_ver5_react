@@ -1,8 +1,9 @@
 /* #profile */
+/* #profile */
 .contBox {
     background: #eaeaea;
     border-radius: 50px;
-    padding: 110px 0;
+    padding: 100px 0;
 }
 #profileCont {
     font-family: 'Kanit', sans-serif;
@@ -19,7 +20,7 @@
 #profileCont .cont_img .cont_diamond {
     width: 75px;
     position: absolute;
-    top: 4px;
+    top: 0px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 1;
@@ -29,7 +30,7 @@
     height: 320px;
     border-radius: 50%;
     /* background: linear-gradient(90deg, #8dafca 0%, #9ac3b5 100%); */
-    background: url('../public/nickBg.png') center no-repeat;
+    background: url('/public/nickBg.png') center no-repeat;
     background-size: cover;
     overflow: hidden;
     position: relative;
@@ -52,7 +53,7 @@
 #profileCont .cont_desc .p-1 {
     font-weight: 800;
     text-transform: uppercase;
-    margin-bottom: 32px;
+    margin-bottom: 18px;
 }
 #profileCont .cont_desc .p-1 span {
     color: #4C7AB0;
@@ -64,8 +65,7 @@
     text-transform: capitalize;
 }
 #profileCont .cont_desc ul {
-    margin-top: 24px;
-    margin-bottom: 32px;
+    margin: 30px 0;
 }
 #profileCont .cont_desc ul li {
     display: inline-block;
@@ -75,7 +75,7 @@
 }
 #profileCont .cont_desc ul li:not(.she) {
     margin-right: 6px;
-    padding: 8px 12px;
+    padding: 8px;
     border-radius: 10px;
     color: #eaeaea;
 }

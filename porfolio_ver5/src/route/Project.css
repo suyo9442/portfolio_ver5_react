@@ -1,0 +1,125 @@
+/* project */
+#projectList {
+    padding: 0;
+}
+#projectList .proj_wrap {
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    padding: 24px 0 0 24px;
+}
+#projectList .proj_wrap > li {
+    width: 31%;
+    margin-right: 24px;
+    height: 240px;
+    background: #eaeaea;
+    border-radius: 30px;
+    margin-bottom: 24px;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.3s;
+}
+#projectList .proj_wrap li > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#projectList .proj_wrap li > div.img{
+    height: 75%;
+    overflow: hidden;
+}
+#projectList .proj_wrap li > div.img img {
+    width: 100%;
+}
+#projectList .proj_wrap li > div.desc {
+    height: 25%;
+    text-align: center;
+    line-height: 60px;
+}
+#projectList .proj_wrap li > div.desc strong {
+    color: #4C7AB0;
+    font-weight: 500;
+}
+#projectList .proj_wrap li:hover .frongBg {
+    opacity: 0.7;
+}
+#projectList .proj_wrap li > .frongBg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #0d397a;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.3s;
+}
+#projectList .proj_wrap li > #explain {
+    width: 100%;
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+    padding: 0 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all 0.3s;
+}
+#projectList .proj_wrap li:hover > #explain {
+    opacity: 1;
+}
+#projectList .proj_wrap li > #explain .tag {
+    margin-bottom: 16px;
+}
+#projectList .proj_wrap li > #explain .tag li {
+    font-size: 1rem;
+    color: #eaeaea;
+    font-weight: 300;
+    display: inline-block;
+    background: #6BB17B;
+    padding: 4px 10px;
+    border-radius: 30px;
+    margin: 2px;
+}
+#projectList .proj_wrap li > #explain .desc {
+    font-size: 1rem;
+    line-height: 24px;
+    color: #eaeaea;
+    text-align: left;
+    margin-left: 16px;
+    margin-bottom: 24px;
+}
+#projectList .proj_wrap li > #explain .btns li {
+    color: #406BAB;
+    display: inline-block;
+    margin: 4px;
+    background: #eaeaea;
+    border-radius: 8px;
+    border: 3px solid #406BAB;
+}
+#projectList .proj_wrap li > #explain .btns li a {
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 0 10px;
+    line-height: 36px;
+}
+#projectList .proj_wrap li > #explain .btns li:hover {
+    border-color: #6BB17B;
+}
+#projectList .proj_wrap li > #explain .btns li:hover a {
+    color: #6BB17B;
+}
+.proj_wrap::-webkit-scrollbar {
+    width: 20px;  /* 스크롤바의 너비 */
+}
+.proj_wrap::-webkit-scrollbar-thumb {
+    height: 20%; /* 스크롤바의 길이 */
+    background: #eaeaea; /* 스크롤바의 색상 */
+    border-radius: 30px;
+}
+.proj_wrap::-webkit-scrollbar-track {
+    background: #82A1BE;  /*스크롤바 뒷 배경 색상*/
+}

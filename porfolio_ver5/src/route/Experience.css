@@ -1,0 +1,68 @@
+/* experience */
+#subject .subBundle {
+    overflow: hidden;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    color: #3BA16A;
+    padding: 0 0 20px 0;
+    margin-bottom: 16px;
+}
+#subject .subBundle > span {
+    background: #eaeaea;
+    display: inline-block;
+    float: left;
+}
+#subject .subBundle .circle {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#subject .subBundle .circle em {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #3BA16A;
+}
+#subject .subBundle .title {
+    padding: 0 24px;
+    border-radius: 30px;
+    position: relative;
+    left: -10px;
+    line-height: 50px;
+}
+#experCont > div.education {
+    margin-bottom: 100px;
+}
+#experCont ul {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+#experCont ul li {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#experCont ul li:nth-child(odd) img{
+    width: 100px;
+}
+#experCont ul li:nth-child(even) img{
+    width: 150px;
+}
+#experCont ul li strong {
+    display: inline-block;
+    color: #406BAB;
+    font-weight: 500;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+#experCont ul li p {
+    font-family: 'Kanit', sans-serif;
+}

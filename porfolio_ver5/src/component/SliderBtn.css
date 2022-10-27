@@ -1,0 +1,28 @@
+/* prev, next 버튼 */
+.prev, .next {
+    background: #eaeaea;
+    padding: 0 25px;
+    line-height: 50px;
+    font-family: 'Kanit', sans-serif;
+    color: #4C7AB0;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 30px;
+    position: absolute;
+}
+.next {
+    right: -12%;
+    bottom: 10%;
+}
+.prev {
+    left: -12%;
+    bottom: 10%;
+}
+.prev:hover, .next:hover {
+    color: #3BA16A;
+}
+.prev:active, .next:active {
+    -webkit-box-shadow: inset 1px 1px 5px 1px rgba(0,0,0,0.52); 
+    box-shadow: inset 1px 1px 5px 1px rgba(0,0,0,0.52);
+}
+  

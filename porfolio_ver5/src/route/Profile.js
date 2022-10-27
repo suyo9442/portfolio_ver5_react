@@ -1,13 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import './Profile.css';
-import DiamondLine from './DiamondLine'
+import { PrevBtn, NextBtn } from '../component/SliderBtn'
 
 function Profile() {
+    // let [dataNum, setDataNum] = useState(0);
+
     return (
         <div id="profile" className="section">
             <div className="container">
                 <div className="row">
-                    <DiamondLine />
                     <div id="profileCont" className="contBox shadow1">
                         <div className="cont_img">
                             <img className="cont_diamond" src='/diamondgif.gif' alt="diamond" />
@@ -40,7 +41,8 @@ function Profile() {
                                 <li>#Kind</li>
                             </ul>
                         </div>
-                        <button className="next shadow3" data-id='1' type="button">next</button>
+                        {/* <button className="next shadow3" data-id='1' type="button">next</button> */}
+                        <NextBtn dataId={"1"} />
                     </div>
                 </div>
             </div>

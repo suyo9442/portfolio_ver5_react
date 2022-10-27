@@ -1,0 +1,76 @@
+/* contact */
+#contactCenter {
+    padding-top: 270px;
+    position: relative;
+    background: url('/public/contactBg.jpg') no-repeat center;
+    background-size: cover;
+}
+#contactCenter .cont_profile {
+    width: 380px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#contactCenter .cont_diamond {
+    width: 75px;
+    position: absolute;
+    left: 50%;
+    top: 185px;
+    transform: translateX(-50%);
+}
+#contactCenter .contact_menu .m_set {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    cursor: pointer;
+}
+#contactCenter .contact_menu .m_set .cont_icon {
+    max-width: 100%;
+}
+#contactCenter .contact_menu .m_set .title {
+    position: static;
+    margin: 0 20px;
+    padding: 0 30px;
+    color: #4C7AB0;
+}
+#contactCenter .contact_menu .m_set .title:hover {
+    color: #3BA16A;
+}
+#contactCenter .contact_menu .m_set .title:active {
+    -webkit-box-shadow: inset 1px 1px 5px 1px rgba(0,0,0,0.52); 
+    box-shadow: inset 1px 1px 5px 1px rgba(0,0,0,0.52);
+}
+#contactCenter .contact_menu .m_left .circle {
+    position: absolute;
+    right: -16px;
+    background: none;
+}
+#contactCenter .contact_menu .m1 {
+    left: 35%;
+    top: 30%;
+}
+#contactCenter .contact_menu .m2 {
+    left: 25%;
+    top: 50%;
+}
+#contactCenter .contact_menu .m3 {
+    left: 22%;
+    top: 70%;
+}
+#contactCenter .contact_menu .m_right .circle {
+    position: absolute;
+    left: -10px;
+    background: none;
+}
+#contactCenter .contact_menu .m4 {
+    right: 25%;
+    top: 30%;
+}
+#contactCenter .contact_menu .m5 {
+    right: 5%;
+    top: 50%;
+}
+#contactCenter .contact_menu .m6 {
+    right: 5%;
+    top: 70%;
+}
